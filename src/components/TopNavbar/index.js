@@ -79,9 +79,9 @@ const TopNavbar = (props) => {
               &nbsp; My Profile
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.2">
-              <FontAwesomeIcon icon={faClipboardList} />
-              &nbsp; Orders
+            <NavDropdown.Item >
+              <Link to ="/orders"><FontAwesomeIcon icon={faClipboardList} />
+              &nbsp; Orders</Link>
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.3">

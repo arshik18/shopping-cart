@@ -12,7 +12,8 @@ const OrdersContainer = (props) => {
   const [getOrders, setGetOrders] = useState([]);
   const [loader,showLoader,hideLoader] = LoaderSpinner();
   useEffect(() => {
-      showLoader();      getOrdersService().then(response =>{
+      showLoader();      
+      getOrdersService().then(response =>{
         hideLoader()
         setGetOrders(response.data);
       })},[]);
