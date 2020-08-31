@@ -1,0 +1,7 @@
+.container{
+   background-color: rgb(231, 229, 229);
+   padding: 5px !important;
+}
+.containerItem{
+    height:20em;
+}

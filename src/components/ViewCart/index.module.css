@@ -1,0 +1,45 @@
+.viewCartContainer{
+    background-color: rgb(231, 229, 229);
+   
+}
+.subTotalCol{
+    border-radius: 4px;
+    height:25rem;
+    border: 1px solid  rgb(231, 229, 229) !important; 
+    background-color: white;
+}
+.viewCartRow{
+    margin-top: 40px;
+    background-color: #f1f3f6 !important; 
+}
+.amountRow{
+    padding-top:16px;
+    padding-bottom:16px;
+}
+.cartItemDisplay{
+    padding-top:16px !important;
+    padding-bottom:16px;
+    border: 1px solid  rgb(231, 229, 229) !important; 
+    border-radius: 4px;
+    background-color: white;
+}
+.midcol{
+    background-color:#f1f3f6
+}
+.labelCart{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top:16px !important;
+}
+.labelName{
+    font-weight: 500;
+    font-size: 18px;
+}
+.orderBtn{
+    background-color:#fb641b !important;
+    border-color:#fb641b !important;
+    float: right;
+}
+.delete{
+
+}

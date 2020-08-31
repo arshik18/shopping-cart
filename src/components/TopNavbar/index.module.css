@@ -1,0 +1,10 @@
+.search{
+    background-color: white !important;
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+    border-color: white;
+}
+.badge{
+    position: relative;
+    top:-12px;
+}

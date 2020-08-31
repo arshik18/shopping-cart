@@ -1,0 +1,18 @@
+.cardsImages{
+    width: 100%;
+height: 40vh;
+object-fit: cover;
+}
+.cardsHeartIcon{
+    float: right !important;
+    margin-right: 10px !important;
+    margin-top: 10px !important;
+}
+.cardsButton{
+    background-color:#fb641b !important;
+    border-color:#fb641b !important;
+}
+.cards{
+    box-shadow: 10px 10px 5px #9a9a9af0;
+    width: 20rem;
+}

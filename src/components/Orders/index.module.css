@@ -1,0 +1,20 @@
+.card{
+    width:20rem;
+}
+.ordersCard{
+    width:12rem;
+}
+.labelName{
+        font-weight: 500;
+}
+.date{
+    font-weight: 400;
+}
+.orderRow{
+    margin:6px;
+    background-color: white;
+    padding:40px;
+    border: 0.5px solid #dad8d8f0;
+    border-radius:4px;
+   
+}
