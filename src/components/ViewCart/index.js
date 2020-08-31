@@ -21,8 +21,8 @@ const ViewCart = (props) => {
           ) : (
             cartItemList.map((listItem) => {
               return (
-                <React.Fragment>
-                  <Row>
+                <React.Fragment key={listItem.id}>
+                  <Row >
                     <Col className={classes.imageCol} xs="4">
                       <Card>
                         <Card.Img src={listItem.avatar} />
@@ -82,8 +82,8 @@ const ViewCart = (props) => {
           {cartItemList &&
             cartItemList.map((listItem) => {
               return (
-                <React.Fragment>
-                  <Row>
+                <React.Fragment key={listItem.id}>
+                  <Row key={listItem.id}>
                     <Col>
                       {listItem.name} x {listItem.quantity}
                     </Col>

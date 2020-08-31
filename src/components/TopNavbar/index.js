@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import classes from "./index.module.css";
 import {
   Navbar,
@@ -18,7 +18,7 @@ import {
   faUser,
   faSignOutAlt,
   faClipboardList,
-  faCross,
+ 
 } from "@fortawesome/free-solid-svg-icons";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
@@ -34,7 +34,6 @@ const TopNavbar = (props) => {
   const changeHandler = (event) => {
     setSearchValue(event.target.value);
   };
-  const faUsers="faUser"
   const searchClickHandler = () => {
     getProductsListService(endpoints.products, { search: searchValue }).then(
       (resp) => {

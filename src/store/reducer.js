@@ -20,6 +20,7 @@ const reducer = (state = initialState, action) => {
   
   switch (action.type) {
     case actionTypes.ADD_ITEM_TO_CART:
+      
       //To check whether the item clicked already exist in cart or not
       let indexOfId = state.cartItemList.findIndex(
         (item) => item.id === action.product.id
@@ -42,8 +43,7 @@ const reducer = (state = initialState, action) => {
         ...state,
         totalPrice: newTotalPrice(state.cartItemList),
       };
-      break;
-
+    
     case actionTypes.DELETE_ITEM_FROM_CART:
       {
         let indexOfId = state.cartItemList.findIndex((i) => i.id === action.id);
@@ -56,7 +56,6 @@ const reducer = (state = initialState, action) => {
           totalPrice: newTotalPrice(state.cartItemList),
         };
       }
-      break;
 
     case actionTypes.ON_QUANTITY_CHANGE:
       {
@@ -72,7 +71,6 @@ const reducer = (state = initialState, action) => {
           totalPrice: newTotalPrice(state.cartItemList),
         };
       }
-      break;
 
     case actionTypes.EMPTY_CART:
       return {
@@ -81,7 +79,6 @@ const reducer = (state = initialState, action) => {
         cartCounter: 0,
         totalPrice: 0,
       };
-      break;
 
     case actionTypes.SEARCH_LIST:
       console.log(action.searchValue,action.list);
