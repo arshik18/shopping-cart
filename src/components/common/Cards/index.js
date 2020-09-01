@@ -25,7 +25,7 @@ const Cards = (props) => {
           <Card.Text>{description}</Card.Text>
           <Card.Text>Price: Rs {price}</Card.Text>
           <Row>
-              <Col sm={5}>
+              <Col xs={6}>
                 <Button 
                   onClick = {props.addToCart}
                   variant="warning">
@@ -33,7 +33,7 @@ const Cards = (props) => {
                       icon={faShoppingCart} />&nbsp;Add 
                   </Button>
                 </Col>
-              <Col sm={4}>
+              <Col xs={6}>
                 <Button 
                   className={classes.cardsButton}>
                     <FontAwesomeIcon 
