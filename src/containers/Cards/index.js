@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
 import classes from "./index.module.css";
 import Cards from "../../components/common/Cards";
-import CardColumns from "react-bootstrap/CardColumns";
+import {Row,Col,CardColumns} from "react-bootstrap";
 import { getProductsListService } from "../../services/products.service.js";
 import {connect} from 'react-redux';
 import * as actionTypes from '../../store/action';
@@ -26,7 +26,8 @@ const CardsContainer = (props) => {
   return (
     <Fragment>
       {loader}
-    <CardColumns className={classes.cardColumn}>
+    {/* <CardColumns className={classes.cardColumn}> */}
+    <Row className={classes.cardRow}>
       {searchList.length>0 ? 
       <React.Fragment>
         {searchList.map(product => {
@@ -50,6 +51,7 @@ const CardsContainer = (props) => {
       {productsList &&
         productsList.map((product) => {
           return (
+            <Col  lg={3} className={classes.cardsCol}>
             <Cards
               key={product.id}
               image={product.avatar}
@@ -60,11 +62,11 @@ const CardsContainer = (props) => {
                 toast.success(product.name +" added to cart");
                 Object.assign(product,{quantity:1})
                 props.addItems(product)}}
-            />
+            /></Col>
           );
         })} </React.Fragment>}
-      
-    </CardColumns>
+      </Row>
+   {/*  </CardColumns> */}
     
     </Fragment>
   );

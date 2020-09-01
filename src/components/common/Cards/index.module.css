@@ -16,3 +16,8 @@ object-fit: cover;
     box-shadow: 10px 10px 5px #9a9a9af0;
     width: 20rem;
 }
+@media only screen and (max-width: 800px) {
+.cards{
+    width: 32rem;
+  }
+}

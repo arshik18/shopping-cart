@@ -13,9 +13,9 @@ const Cards = (props) => {
     const {image, description, name, price} = props;
     return ( 
       <Card className={classes.cards}>
-        <FontAwesomeIcon 
+        {/* <FontAwesomeIcon 
           icon={faHeart} 
-          className={classes.cardsHeartIcon}/>
+          className={classes.cardsHeartIcon}/> */}
         <Card.Img 
           className={classes.cardsImages} 
           variant="top" 
