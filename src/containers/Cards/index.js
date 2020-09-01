@@ -7,6 +7,7 @@ import {connect} from 'react-redux';
 import * as actionTypes from '../../store/action';
 import LoaderSpinner from '../../components/common/Loader';
 import * as endpoints from '../../services/endpoints';
+import { toast } from "react-toastify";
 const CardsContainer = (props) => {
 
   const [productsList, setProductsList] = useState([]);
@@ -37,8 +38,11 @@ const CardsContainer = (props) => {
               price={product.price}
               description={product.description}
               addToCart={()=>{
+                toast.success("Item added to cart");
                 Object.assign(product,{quantity:1})
-                props.addItems(product)}}
+                props.addItems(product)
+              }
+              }
             />
           );
         })}</React.Fragment> :
@@ -53,6 +57,7 @@ const CardsContainer = (props) => {
               price={product.price}
               description={product.description}
               addToCart={()=>{
+                toast.success(product.name +" added to cart");
                 Object.assign(product,{quantity:1})
                 props.addItems(product)}}
             />
