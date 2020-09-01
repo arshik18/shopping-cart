@@ -17,11 +17,11 @@
 
 @media only screen and (max-width: 800px) {
     .cardRow {
-        margin: -5px;
+        margin: -5px !important;
     }
   }
 .cardRow{
     width:100%;
     padding-left:8px;
-    
+    margin: -5px !important;
 }
