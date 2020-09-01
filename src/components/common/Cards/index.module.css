@@ -18,6 +18,6 @@ object-fit: cover;
 }
 @media only screen and (max-width: 800px) {
 .cards{
-    width: 28rem;
+    width: 24rem;
   }
 }
