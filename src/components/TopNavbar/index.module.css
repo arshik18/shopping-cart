@@ -3,6 +3,7 @@
     border-top-right-radius: 2px !important;
     border-bottom-right-radius: 2px !important;
     border-color: white;
+    cursor: pointer;
 }
 .badge{
     position: relative;
