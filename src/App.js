@@ -6,6 +6,7 @@ import TopNavbarContainer from './components/TopNavbar'
 import ViewCartContainer from './containers/ViewCart';
 import OrdersContainer from './containers/Orders';
 import Toast from './components/common/Toast';
+import ReactTooltip from 'react-tooltip'; 
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Route path="/view-cart" exact component ={ViewCartContainer}/>
     <Route path="/orders" exact component ={OrdersContainer}/>
     <Toast/>
+    <ReactTooltip/>
     </React.Fragment>
   );
 }

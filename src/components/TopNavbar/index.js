@@ -24,6 +24,8 @@ import { Link } from "react-router-dom";
 import * as actionTypes from "../../store/action";
 import { getProductsListService } from "../../services/products.service";
 import * as endpoints from "../../services/endpoints";
+//import ReactTooltip from 'react-tooltip';
+
 const TopNavbar = (props) => {
   const [searchValue, setSearchValue] = useState("");
   const [searchClicked, setSearchClicked] = useState(false);
@@ -45,15 +47,16 @@ const TopNavbar = (props) => {
 
   const renderTopNav = () => {
     return (
+      <React.Fragment>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Link to="/">
-          <Navbar.Brand>E-Cart</Navbar.Brand>
+          <Navbar.Brand data-tip="Home Page">E-Cart</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Form inline>
-              <InputGroup>
+              <InputGroup data-tip="Search">
                 <FormControl
                   placeholder="Search"
                   aria-label="Search"
@@ -62,7 +65,7 @@ const TopNavbar = (props) => {
                   value={searchValue}
                   onChange={changeHandler}
                 />
-                <InputGroup.Prepend onClick={searchClickHandler}>
+                <InputGroup.Prepend  onClick={searchClickHandler}>
                   <InputGroup.Text id="basic-addon1" className={classes.search}>
                     {searchClicked ? (
                       <FontAwesomeIcon icon={faTimes} />
@@ -74,7 +77,7 @@ const TopNavbar = (props) => {
               </InputGroup>
             </Form>
           </Nav>
-          <Nav>
+          <Nav data-tip="Profile">
             <NavDropdown title="Arshi" id="collasible-nav-dropdown">
               <NavDropdown.Item >
                 <FontAwesomeIcon icon={faUser} />
@@ -103,7 +106,7 @@ const TopNavbar = (props) => {
             <Nav.Link >
               <FontAwesomeIcon icon={faHeart} />
             </Nav.Link>
-            <Nav.Link eventKey={2}>
+            <Nav.Link eventKey={2} data-tip="Cart">
               <Link to="/view-cart">
                 <FontAwesomeIcon icon={faShoppingCart} />
                 <Badge pill variant="light" className={classes.badge}>
@@ -114,6 +117,8 @@ const TopNavbar = (props) => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      
+    </React.Fragment>
     );
   };
   return renderTopNav();
