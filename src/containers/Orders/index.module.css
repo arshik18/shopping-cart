@@ -1,5 +1,15 @@
 
 .ordersContainer{
     margin-top:3rem;
-    margin-bottom:4rem;
+    margin-bottom:2rem;
+    border: 1px solid #dad8d8f0;
+    border-radius: 4px;
+    background-color: white;
+}
+.ordersRow{
+    background-color:#d47f7ff0;
+    
+}
+.labelName{
+    font-weight: 500;
 }

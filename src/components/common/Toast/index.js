@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Toast = () => {
   return (
     <div>
-      <ToastContainer />
+      <ToastContainer position="top-center"/>
     </div>
   );
 };

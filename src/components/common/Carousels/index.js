@@ -8,7 +8,9 @@ import Container from 'react-bootstrap/Container'
 
 const Carousels = (props) => {
   
-    return (
+  //This function will render Carousel
+    const renderCarousel = () =>{
+      return(
       <Container fluid className={classes.container}>
       <Carousel>
         <Carousel.Item className={classes.containerItem} interval={1000}>
@@ -48,6 +50,10 @@ const Carousels = (props) => {
         </Carousel.Item>
       </Carousel>
       </Container>
+      )}
+
+    return (
+      renderCarousel()
     );
   }
 

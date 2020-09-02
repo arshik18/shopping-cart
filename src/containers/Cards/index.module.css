@@ -15,7 +15,6 @@
         align-items: center !important;
     }
   }
-
 @media only screen and (max-width: 800px) {
     .cardRow {
         padding-right:20px !important;
@@ -23,6 +22,5 @@
   }
 .cardRow{
     width:100%;
-    /* padding-left:8px; */
     margin-left: 5px;
 }

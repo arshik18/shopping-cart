@@ -11,11 +11,11 @@ import {
 const Cards = (props) => {
 
     const {image, description, name, price} = props;
-    return ( 
-      <Card className={classes.cards}>
-        {/* <FontAwesomeIcon 
-          icon={faHeart} 
-          className={classes.cardsHeartIcon}/> */}
+    
+    //this function will render cards
+    const renderCard =() =>{
+      return(
+        <Card className={classes.cards}>
         <Card.Img 
           className={classes.cardsImages} 
           variant="top" 
@@ -43,6 +43,10 @@ const Cards = (props) => {
           </Row>
         </Card.Body>
       </Card>
+      )
+    }
+    return ( 
+      renderCard()
     );
   }
 
