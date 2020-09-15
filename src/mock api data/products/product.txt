@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "createdAt": "2020-08-25T07:34:36.734Z",
+    "name": "Thread",
+    "avatar": "https://picjumbo.com/wp-content/uploads/shiny-metallic-sewing-threads-1080x720.jpg",
+    "description": "Your's Favourite Multicolor Thread",
+    "price": 49
+  },
+  {
+    "id": "2",
+    "createdAt": "2020-08-25T00:24:53.689Z",
+    "name": "Ear Pods",
+    "avatar": "https://picjumbo.com/wp-content/uploads/DSC04866-1080x720.jpg",
+    "description": "DuoPods Wireless Headset",
+    "price": 1999
+  },
+  {
+    "id": "3",
+    "createdAt": "2020-08-25T05:08:33.430Z",
+    "name": "Forever21 Coat",
+    "avatar": "https://picjumbo.com/wp-content/uploads/DSC04365-1080x720.jpg",
+    "description": "Polyester Self Design Coat",
+    "price": 2599
+  },
+  {
+    "id": "4",
+    "createdAt": "2020-08-24T16:27:34.871Z",
+    "name": "Make Up",
+    "avatar": "https://picjumbo.com/wp-content/uploads/woman-beauty-makeup-set-white-marble-1080x720.jpg",
+    "description": "Makeup Kit Combo",
+    "price": 899
+  },
+  {
+    "id": "5",
+    "createdAt": "2020-08-24T17:28:15.268Z",
+    "name": "Nike Sports Shoes",
+    "avatar": "https://picjumbo.com/wp-content/uploads/sporty-woman-wearing-nike-air-max-shoes-1080x1620.jpg",
+    "description": "Basketball Shoe For Men",
+    "price": 3999
+  },
+  {
+    "id": "6",
+    "createdAt": "2020-08-25T04:21:08.961Z",
+    "name": "Heels",
+    "avatar": "https://picjumbo.com/wp-content/uploads/woman-in-black-high-heels-standing-next-to-a-car-2_free_stock_photos_picjumbo_HNCK9049-1080x720.jpg",
+    "description": "Black Heels for Women",
+    "price": 1599
+  },
+  {
+    "id": "7",
+    "createdAt": "2020-08-25T10:21:34.979Z",
+    "name": "Flying Machine Jeans",
+    "avatar": "https://picjumbo.com/wp-content/uploads/man-standing-in-front-of-metallic-wall_free_stock_photos_picjumbo_Man-Standing-in-Front-of-Metallic-Wall-1080x720.jpg",
+    "description": "Tapered Fit Men Black Jeans",
+    "price": 2999
+  },
+  {
+    "id": "8",
+    "createdAt": "2020-08-25T09:37:14.714Z",
+    "name": "Jwellery Box",
+    "avatar": "https://picjumbo.com/wp-content/uploads/opened-jewelry-box_free_stock_photos_picjumbo_HNCK3942-1080x720.jpg",
+    "description": "Jewellry store and bengals Box",
+    "price": 499
+  },
+  {
+    "id": "9",
+    "createdAt": "2020-08-25T01:48:57.901Z",
+    "name": "Provogue Sneakers",
+    "avatar": "https://picjumbo.com/wp-content/uploads/happy-shoes-shoelace-heart-1080x720.jpg",
+    "description": "Sneakers For Men",
+    "price": 1799
+  },
+  {
+    "id": "10",
+    "createdAt": "2020-08-25T09:38:37.746Z",
+    "name": "Goggles",
+    "avatar": "https://picjumbo.com/wp-content/uploads/funny-usa-america-flag-retro-sunglasses_free_stock_photos_picjumbo_hnck4330-1080x720.jpg",
+    "description": "UV Protection Sunglasses",
+    "price": 899
+  },
+  {
+    "id": "11",
+    "createdAt": "2020-08-24T22:19:51.734Z",
+    "name": "Watch",
+    "avatar": "https://picjumbo.com/wp-content/uploads/watches_free_stock_photos_picjumbo_IMG_3725-1080x720.jpg",
+    "description": "Unique Analog Watch for Men",
+    "price": 1799
+  },
+  {
+    "id": "12",
+    "createdAt": "2020-08-25T07:24:25.544Z",
+    "name": "Apple Laptop",
+    "avatar": "https://picjumbo.com/wp-content/uploads/macbook-pro-at-pink-night_free_stock_photos_picjumbo_IMG_4926-1080x720.jpg",
+    "description": "Apple MacBook Pro Core",
+    "price": 169990
+  }
+]
